@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
-    <title>Rock  Paper Scissors</title>
 </head>
 <body>
-    <script src="index.js"></script>
+<main>
+    <h1>Rock Paper Scissors</h1>
+    
+    <div class="container flex_styles">
+
+        <div class="top_mini_container">
+            <p id="humanScore"></p>
+            <p id="computerScore"></p>
+        </div>
+
+        <div class="flex">
+            <img id="rock" src="./img/granite.png" alt="Rock">
+            <span>Rock</span>
+        </div>
+        <div class="flex">
+            <img id="paper" src="./img/paper.png" alt="Paper">
+            <span>Paper</span>
+        </div>
+        <div class="flex">
+            <img id="scissor"src="./img/scissor.png" alt="scissor">
+            <span>Scissors</span>
+        </div>
+    
+        <div class="bottom_mini_container">
+            
+            <img id="computer-choice-img_paper" src="./img/paper.png" alt="Computer's choice Paper" style="display: none;">
+            <img id="computer-choice-img_rock" src="./img/granite.png" alt="Computer's choice Rock" style="display: none;">
+            <img id="computer-choice-img_scissor" src="./img/scissor.png" alt="Computer's choice Scissor" style="display: none;">
+            <span id="computer-choice">Computer Choice</span>
+        </div>
+    </div>
+    </main>
+
+
+
+    <script src="app.js"></script>
 </body>
 </html>
