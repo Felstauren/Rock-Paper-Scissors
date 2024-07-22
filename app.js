@@ -1,3 +1,4 @@
+
 img_rock = document.querySelector("#rock");
 img_scissor = document.querySelector("#scissor");
 img_paper = document.querySelector("#paper");
@@ -82,4 +83,5 @@ function UIComputerChoiceCheck(computerChoice) {
         computer_paper.style.display = "none";
     }
 }
+
         
